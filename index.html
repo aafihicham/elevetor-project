@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevator project</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+ <aside class="elevator_floors">
+    <div class="floors">
+        <div class="floor4" data-floor="5"></div>
+        <div class="floor3" data-floor="4"></div>
+        <div class="floor2" data-floor="3"></div>
+        <div class="floor1" data-floor="2"></div>
+        <div class="floor0" data-floor="1">
+         <div class="elevator">
+          <div class="door"></div>
+          <div class="door"></div>
+         </div>
+        </div>
+    </div>
+ </aside>
+ <main class="main">
+    <div class="screen"><h2>Screen</h2></div>
+    <div class="steps"><h2>Steps</h2></div>
+    <div class="actions"><h2>Actions</h2>
+      <div class="Floors-button">
+        <button type="button" data-set-floor="0"><div class="circle_btn">F0</div></button>  
+        <button type="button" data-set-floor="1"><div class="circle_btn">F1</div></button>
+        <button type="button" data-set-floor="2"><div class="circle_btn">F2</div></button>
+        <button type="button" data-set-floor="3"><div class="circle_btn">F3</div></button>
+        <button type="button" data-set-floor="4"><div class="circle_btn">F4</div></button>
+      </div>
+      <div class="start_rest_btn">
+        <button type="button" class="start"><img src="img/icones/start.svg" alt="start button" width="50" height="50"></button>
+        <button type="button" class="reset"><img src="img/icones/reset.svg" alt="start reset" width="50" height="50"></button>
+      </div>
+    </div>
+ </main>
+ <script src="js/myscript.js"></script>
+</body>
+</html>
